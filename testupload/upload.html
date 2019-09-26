@@ -1,0 +1,29 @@
+﻿<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>上传文件</title>
+</head>
+<body>
+		<h1>上传文件</h1>
+		
+							<form action="upload.php"   name="loginform" accept-charset="utf-8" id="login_form" method="post" enctype="multipart/form-data">
+		               			
+		                			名称：
+		                			
+										<input type="text" id="titles" name="titles"/>
+		                			
+		                		
+		                		
+		                    			
+	文件名：
+	<input type="file" name="file" id="file"><br>
+	<input type="submit" name="submit" value="提交">
+</form>
+
+		           		
+</body>
+</html>
